@@ -21,7 +21,7 @@ const ForgotPassword = () => {
           },
           body: JSON.stringify({
             email: email,
-            redirectUrl: "http://localhost:3000/passwordreset",
+            redirectUrl: `klvp-authentication.netlify.app/passwordreset`,
           }),
         }
       );
